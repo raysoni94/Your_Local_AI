@@ -33,6 +33,13 @@ st.set_page_config(page_title="Your Local AI", page_icon="🗂️", layout="cent
 def load_query_engine(persist_dir, chroma_dir, collection, gen_model, top_k):
     Settings.embed_model = OllamaEmbedding(model_name=DEFAULT_EMBED_MODEL, base_url=OLLAMA_BASE_URL)
     Settings.llm = Ollama(model=gen_model, base_url=OLLAMA_BASE_URL, request_timeout=180.0)
+    Settings.llm = Ollama(
+    model=gen_model,
+    base_url=OLLAMA_BASE_URL,
+    request_timeout=180.0,
+    context_window=8192,   # match what you set on the Ollama side too
+    additional_kwargs={"num_ctx": 8192},
+)
 
     chroma_client = chromadb.PersistentClient(path=chroma_dir)
     chroma_collection = chroma_client.get_or_create_collection(collection)
