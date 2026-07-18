@@ -30,6 +30,8 @@ ollama pull llama3.1:8b
 pip install -r requirements.txt
 ```
 
+#### Place the data files to your partition or specified dir on your local machine
+
 ## 2. Point it at your partition
 
 Edit the defaults at the top of `build_index.py`, or just pass a flag:
