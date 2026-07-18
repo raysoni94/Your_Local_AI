@@ -73,7 +73,3 @@ from, so you can sanity-check retrieval quality.
 - Supported file types out of the box: .txt, .md, .pdf, .docx, .csv, .json,
   and several more. For a partition full of code or unusual formats, let
   me know and I'll add a custom reader.
-
-
-wget -uri https://bootstrap.pypa.io/get-pip.py -OutFile get-pip.py
-python get-pip.py   
