@@ -34,9 +34,9 @@ import chromadb
 # Config — edit these or override via CLI flags
 # ---------------------------------------------------------------------------
 
-DEFAULT_KB_DIR = "F:\\LLM_CONTEXT\PLANE\docs"       # directory to index (your partition/folder)
-DEFAULT_PERSIST_DIR = "F:\\LLM_CONTEXT\PLANE\storage"         # where the index metadata is saved
-DEFAULT_CHROMA_DIR = "F:\\LLM_CONTEXT\PLANE\chroma_db"        # where the vector DB itself is saved
+DEFAULT_KB_DIR = "./docs"       # directory to index (your partition/folder)
+DEFAULT_PERSIST_DIR = "./storage"         # where the index metadata is saved
+DEFAULT_CHROMA_DIR = "./chroma_db"        # where the vector DB itself is saved
 DEFAULT_COLLECTION = "local_kb"
 DEFAULT_EMBED_MODEL = "nomic-embed-text"  # must be pulled in ollama already
 OLLAMA_BASE_URL = "http://localhost:11434"
