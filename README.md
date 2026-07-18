@@ -18,7 +18,7 @@ internet at runtime.
 | `requirements.txt`| Python dependencies                                              |
 
 
-# Bootstapping 
+# Bootstrapping 
 
 ## 1. Install Python 3.14 https://www.python.org/downloads/release/pymanager-263/
 
