@@ -7,8 +7,11 @@
 This python manager would ask to update settings, select all options y or Y. Use Python version 3.14 or above
 
 ## 2. Install Ollama
-
-- irm https://ollama.com/install.ps1 | iex
+```
+function test() {
+  console.log("irm https://ollama.com/install.ps1 | iex");
+}
+```
 
 ## 3. Install Ollama for python
 
