@@ -4,3 +4,6 @@ llama-index-embeddings-ollama
 llama-index-llms-ollama
 llama-index-readers-file
 chromadb
+watchdog
+streamlit
+ 
