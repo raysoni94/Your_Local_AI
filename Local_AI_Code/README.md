@@ -9,9 +9,9 @@ This python manager would ask to update settings, select all options y or Y. Use
 irm https://ollama.com/install.ps1 | iex
 ```
 ## 3. Install Ollama for python
-
+```
 pip install ollama
-
+```
 # Local Vector Knowledge Base (fully offline)
 
 ## 1. One-time setup
@@ -70,7 +70,3 @@ from, so you can sanity-check retrieval quality.
 - Supported file types out of the box: .txt, .md, .pdf, .docx, .csv, .json,
   and several more. For a partition full of code or unusual formats, let
   me know and I'll add a custom reader.
-
-
-wget -uri https://bootstrap.pypa.io/get-pip.py -OutFile get-pip.py
-python get-pip.py   
