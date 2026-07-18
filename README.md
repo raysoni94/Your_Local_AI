@@ -12,9 +12,9 @@ irm https://ollama.com/install.ps1 | iex
 ```
 
 ## 3. Install Ollama for python
-
+```
 pip install ollama
-
+```
 # Local Vector Knowledge Base (fully offline)
 
 ## 1. One-time setup
