@@ -8,9 +8,7 @@ This python manager would ask to update settings, select all options y or Y. Use
 
 ## 2. Install Ollama
 ```
-function test() {
-  console.log("irm https://ollama.com/install.ps1 | iex");
-}
+"irm https://ollama.com/install.ps1 | iex"
 ```
 
 ## 3. Install Ollama for python
