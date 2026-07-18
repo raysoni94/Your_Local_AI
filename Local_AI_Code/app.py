@@ -32,7 +32,6 @@ st.set_page_config(page_title="Your Local AI", page_icon="🗂️", layout="cent
 @st.cache_resource(show_spinner=False)
 def load_query_engine(persist_dir, chroma_dir, collection, gen_model, top_k):
     Settings.embed_model = OllamaEmbedding(model_name=DEFAULT_EMBED_MODEL, base_url=OLLAMA_BASE_URL)
-    Settings.llm = Ollama(model=gen_model, base_url=OLLAMA_BASE_URL, request_timeout=180.0)
     Settings.llm = Ollama(
     model=gen_model,
     base_url=OLLAMA_BASE_URL,
